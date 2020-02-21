@@ -1,9 +1,8 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
+    <HelloWorld msg="Hello!" />
     <counter></counter>
     <toggle></toggle>
-    <HelloWorld msg="Welcome to Your Vue.js App" />
   </div>
 </template>
 
@@ -35,4 +34,9 @@ export default {
     border: solid 1pt grey
     margin: 5vw
     padding: 2vw
+
+    button
+        font-weight: 700
+        text-transform: uppercase
+        
 </style>
