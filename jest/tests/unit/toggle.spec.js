@@ -2,12 +2,12 @@ import { mount } from "@vue/test-utils";
 import Toggle from "@/components/Toggle.vue";
 import Vue from "vue";
 
-describe(`Counter`, () => {
+describe(`Toggle`, () => {
   const wrapper = mount(Toggle);
 
   it(`renders correct markup`, () => {
     expect(wrapper.text()).toContain(`blue`);
-    expect(wrapper.html()).toContain(`<p class="counter">0</p>`);
+    expect(wrapper.html()).toContain(`<p class="toggle">`);
   });
 
   it(`checks the existence of button`, () => {
