@@ -3,7 +3,9 @@
     <h2>Counter Component</h2>
     <p>Increments following text by 1 upon button click</p>
     <p class="counter">{{ count }}</p>
-    <button type="button" class="btn btn-info" @click="increment">Increment above text</button>
+    <button type="button" class="btn btn-info" @click="increment">
+      Increment above text
+    </button>
   </div>
 </template>
 
@@ -21,4 +23,3 @@ export default {
   }
 };
 </script>
-
