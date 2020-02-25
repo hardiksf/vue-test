@@ -1,8 +1,9 @@
 <template>
   <div class="component-border">
-    <h2>Toggle Component</h2>
-    <h6>Sub Title: {{ subTitle }}</h6>
-    <p>Toggle button is {{ isButtonToggled ? "blue" : "green" }}</p>
+    <h2>{{ title }}</h2>
+    <p class="toggle">
+      Toggle button is {{ isButtonToggled ? "blue" : "green" }}
+    </p>
     <button
       type="button"
       class="btn text-uppercase font-weight-bold"
@@ -17,7 +18,7 @@
 <script>
 export default {
   props: {
-    subTitle: String
+    title: String
   },
   data() {
     return {

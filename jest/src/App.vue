@@ -2,7 +2,7 @@
   <div id="app">
     <HelloWorld msg="Hello!" />
     <counter></counter>
-    <toggle subTitle="This is my sub title!"></toggle>
+    <toggle title="Toggle Component"></toggle>
   </div>
 </template>
 
